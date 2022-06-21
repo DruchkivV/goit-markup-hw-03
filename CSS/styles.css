@@ -82,9 +82,9 @@ img {
     color: var(--main-color)
 }
 
-.nav-header {}
-
-.header-list {}
+.header-list {
+    padding-left: 0px;
+}
 
 .header-list-item:not(:last-child) {
     margin-right: 50px;
@@ -231,6 +231,7 @@ img {
     align-items: center;
     flex-direction: column;
 }
+
 .about-photo:not(:last-child) {
     padding-right: 30px;
 }
@@ -272,9 +273,11 @@ img {
     align-items: center;
     flex-direction: column;
 }
+
 .workers:not(:last-child) {
     margin-right: 30px;
 }
+
 .workers-name {
     font-weight: 500;
     font-size: 16px;
