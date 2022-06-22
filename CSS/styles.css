@@ -277,7 +277,9 @@ img {
 .workers:not(:last-child) {
     margin-right: 30px;
 }
-
+.workers-container {
+    padding: 30px 0px 30px 0px;
+}
 .workers-name {
     font-weight: 500;
     font-size: 16px;
@@ -285,7 +287,7 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-color);
-    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .workers-descr {
@@ -295,8 +297,6 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-color);
-    margin-top: 10px;
-    margin-bottom: 30px;
 }
 
 .footer {
@@ -361,13 +361,15 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 94px 0px;
+    padding: 100px 0px 94px 0px;
 }
 
 .btns-container {
     list-style: none;
     display: flex;
     justify-content: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 .btns-list {
@@ -411,6 +413,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 0px;
+    margin: 50px 0px 0px 0px;
 }
 
 .photo-list {
@@ -419,7 +422,6 @@ img {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     flex-direction: column;
-    margin-top: 50px;
     margin-right: 30px;
 }
 
@@ -430,16 +432,16 @@ img {
 .photo-list:nth-child(n+4) {
     margin-top: 30px;
 }
-
+.descr-container {
+    padding: 20px 24px;
+}
 .photo-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color);
-    margin: 20px 0px 4px 0px;
     display: flex;
-    padding-left: 24px;
 }
 
 .photo-descr {
@@ -448,8 +450,6 @@ img {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--second-color);
-    margin-bottom: 20px;
-    padding-left: 24px;
 }
 
 .current-btn {
